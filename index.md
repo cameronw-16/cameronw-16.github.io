@@ -3,8 +3,8 @@
 
 9/11/2019
 
-A review of the article “Open Network for Local Self Sustainability, Boosting 
-Bioregional Development Through an Open Data Sharing System” taken from the FOSS4G 2019 conference.
+A review of the article “[Open Network for Local Self Sustainability, Boosting 
+Bioregional Development Through an Open Data Sharing System](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W8/27/2018/isprs-archives-XLII-4-W8-27-2018.pdf)” taken from the FOSS4G 2019 conference.
 
 This article explains a developing geodatabase called Open NETwork for Local Self Sustainability. 
 The purpose of the database is to suggest a way to create the most self-sustainable 
@@ -25,5 +25,3 @@ to the program, which is key in not only disseminating the program to city plann
 allowing people from different areas of research to contribute their supply chain data to the 
 geodatabase. The Open NETwork for Local Self Sustainability necessitates different groups working 
 together to achieve sustainability goals.
-
-[Article](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W8/27/2018/isprs-archives-XLII-4-W8-27-2018.pdf)
