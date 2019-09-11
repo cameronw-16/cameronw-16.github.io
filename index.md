@@ -1,11 +1,8 @@
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Assignment 1
 
 ```markdown
-Assignment 1
-'9/11/2019
+9/11/2019
 
 A review of the article “Open Network for Local Self Sustainability, Boosting 
 Bioregional Development Through an Open Data Sharing System” taken from the FOSS4G 2019 conference.
@@ -29,7 +26,7 @@ Bioregional Development Through an Open Data Sharing System” taken from the FO
 	geodatabase. The Open NETwork for Local Self Sustainability necessitates different groups working 
 	together to achieve sustainability goals.
 
-Article: https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W8/27/2018/isprs-archives-XLII-4-W8-27-2018.pdf'
+[Article] (https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W8/27/2018/isprs-archives-XLII-4-W8-27-2018.pdf)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
