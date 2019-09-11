@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[https://github.com/cameronw-16/cameronw-16.github.io/blob/master/Assignment%201.docx](url) and ![Image](src)
+[Assignment 1](https://github.com/cameronw-16/cameronw-16.github.io/blob/master/Assignment%201.docx) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
