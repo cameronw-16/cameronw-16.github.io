@@ -1,7 +1,6 @@
 
 ### Assignment 1
 
-```markdown
 9/11/2019
 
 A review of the article “Open Network for Local Self Sustainability, Boosting 
@@ -27,4 +26,3 @@ Bioregional Development Through an Open Data Sharing System” taken from the FO
 	together to achieve sustainability goals.
 
 [Article](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W8/27/2018/isprs-archives-XLII-4-W8-27-2018.pdf)
-```
