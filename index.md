@@ -21,12 +21,13 @@ Bioregional Development Through an Open Data Sharing System” taken from the FO
 	renewable primary energy, amount of productive land, and local manpower the chain uses. 
 	The database uses the opensource programs GRASS and QGIS to create the suggested sustainable supply
 	chains. In the future, the database hopes to expand the types of supply chains that are included by 
-	drawing in different fields of research. 	To me, the open source nature of this project is 
-	extremely important to achieving this database’s goal. Being created on the open source programs
-	QGIS and GRASS allow almost anyone to have access to the program, which is key in not only 
-	disseminating the program to city planners but also allowing people from different areas of 
-	research to contribute their supply chain data to the geodatabase. The Open NETwork for Local 
-	Self Sustainability necessitates different groups working together to achieve sustainability goals.
+	drawing in different fields of research.
+	To me, the open source nature of this project is extremely important to achieving this database’s 
+	goal. Being created on the open source programs QGIS and GRASS allow almost anyone to have access 
+	to the program, which is key in not only disseminating the program to city planners but also 
+	allowing people from different areas of research to contribute their supply chain data to the 
+	geodatabase. The Open NETwork for Local Self Sustainability necessitates different groups working 
+	together to achieve sustainability goals.
 
 Article: https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W8/27/2018/isprs-archives-XLII-4-W8-27-2018.pdf'
 ```
