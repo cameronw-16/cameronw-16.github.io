@@ -26,4 +26,7 @@ allowing people from different areas of research to contribute their supply chai
 geodatabase. The Open NETwork for Local Self Sustainability necessitates different groups working 
 together to achieve sustainability goals.
 
-[My First Model] 
+### Lab 1 - First Model!
+
+In our first lab we made a model that measures the distance and direction from a point to the centroid of a polygon.
+[My First Model](Distance_and_direction_from_point.model3)
