@@ -29,4 +29,4 @@ together to achieve sustainability goals.
 ### Lab 1 - First Model!
 
 In our first lab we made a model that measures the distance and direction from a point to the centroid of a polygon.
-Download [My First Model](Distance_and_direction_from_point.model3) here.
+Download [My First Model](Distance_and_direction_from_point.model3).
