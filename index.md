@@ -4,6 +4,8 @@
 
 This model measures the distance, direction (degrees), and orientation (NSEW) of a polygon(s) from a central point or polygon
 
+[Plot](
+
 ### Lab 1 - First Model!
 
 In our first lab we made a model that measures the distance and direction from a point to the centroid of a polygon.
