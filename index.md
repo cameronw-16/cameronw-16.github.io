@@ -8,7 +8,8 @@ Download the model: [Distance_Direction_Orientation_from_Center](DistanceSQL_dir
 I used this model to analyze data from the Houston 2017 census on Median gross rent.  This census data was collected from the 
 Texas B25064 and B03002 tables in the 2017 ACS 5-year estimates topic on [American FactFinder](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml).
 The census tracts data for Texas was found [here](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html). The data I use is comprised of the Texas districts that I selected to make up the greater Houston area. After 
-selecting the districts of interest, I joined the data columns I joined the census data to the census tract geographies.
+selecting the districts of interest, I joined the data columns I joined the census data to the census tract geographies. Find all
+of the data I used in one consise place right [here!](Lab 1.zip).
 ![Model](model_img.png)
 In my model, I used the downtown houston district as my 'City Center' from which the model would measure the distance, direction, 
 and NSEW orientation of the districts. My 'Input features' were the greater Houston area districts. The results from the model 
