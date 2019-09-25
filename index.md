@@ -18,7 +18,7 @@ can be seen in the maps below. The first map gives a visual representation of th
 Houston, and the second map gives a visual representation of the NSEW orientation of the districts in relation to downtown Houston.
 
 ![Distance](Distance_Downtown_HOU_toDistricts.png)
-![Orientations](Districts_Direction_fromHOU.png)
+![Orientations](NSEW_orientation_Houston_Districts.png)
 
 I used the direction data from my model to create a polar plot comparing the direction of a district relative to downtown Houston to
 the median gross rent of that district. On this graph, 0 degrees = N, 90 degrees = E, 180 degrees = S, 270 degrees = W. The higher median gross rents tend to fall on the W/NW side of the city. The title ACS_17_5YR_B25064_HD01_VD01 is the median gross income.
