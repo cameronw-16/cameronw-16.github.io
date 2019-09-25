@@ -9,9 +9,10 @@ I used this model to analyze data from the Houston 2017 census on Median gross r
 Texas B25064 and B03002 tables in the 2017 ACS 5-year estimates topic on [American FactFinder](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml).
 The census tracts data for Texas was found [here](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html). The data I use is comprised of the Texas districts that I selected to make up the greater Houston area. After 
 selecting the districts of interest, I joined the data columns I joined the census data to the census tract geographies. Find all
-of the data I used in one consise place right [here!](Lab 1.zip).
+of the data I used in one concise place right [here!](Lab 1.zip).
 ![Model](model_img.png)
-In my model, I used the downtown houston district as my 'City Center' from which the model would measure the distance, direction, 
+
+In my model, I used the downtown Houston district as my 'City Center' from which the model would measure the distance, direction, 
 and NSEW orientation of the districts. My 'Input features' were the greater Houston area districts. The results from the model 
 can be seen in the maps below. The first map gives a visual representation of the distances to the districts measured from downtown
 Houston, and the second map gives a visual representation of the NSEW orientation of the districts in relation to downtown Houston.
@@ -19,7 +20,12 @@ Houston, and the second map gives a visual representation of the NSEW orientatio
 ![Distance](Distance_Downtown_HOU_toDistricts.png)
 ![Orientations](Districts_Direction_fromHOU.png)
 
-[Plot](Median_Gross_Rent_by_Direction_from_DTHOU.html)
+I used the direction data from my model to create a polar plot comparing the direction of a district relative to downtown Houston to
+the median gross rent of that district. On this graph, 0 degrees = N, 90 degrees = E, 180 degrees = S, 270 degrees = W. The higher median gross rents tend to fall on the W/NW side of the city. The title ACS_17_5YR_B25064_HD01_VD01 is the median gross income.
+
+Click on this [plot](Median_Gross_Rent_by_Direction_from_DTHOU.html) to see this information graphed with DataPlotly.
+
+
 
 ### Lab 1 - First Model!
 
