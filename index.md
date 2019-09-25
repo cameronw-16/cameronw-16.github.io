@@ -4,7 +4,7 @@
 
 This model measures the distance, direction (degrees), and orientation (NSEW) of a polygon(s) from a central point or polygon
 
-[Plot](
+[Plot](Median_Gross_Rent_by_Direction_from_DTHOU.html)
 
 ### Lab 1 - First Model!
 
