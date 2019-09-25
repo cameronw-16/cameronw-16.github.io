@@ -2,7 +2,21 @@
 
 9/24/2019
 
-This model measures the distance, direction (degrees), and orientation (NSEW) of a polygon(s) from a central point or polygon
+This model measures the distance, direction (degrees), and orientation (NSEW) of a polygon(s) from a central point or polygon.
+Download the model: [Distance_Direction_Orientation_from_Center](DistanceSQL_direction_orientation_frompoint.model3)
+
+I used this model to analyze data from the Houston 2017 census on Median gross rent.  This census data was collected from the 
+Texas B25064 and B03002 tables in the 2017 ACS 5-year estimates topic on [American FactFinder](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml).
+The census tracts data for Texas was found [here](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html). The data I use is comprised of the Texas districts that I selected to make up the greater Houston area. After 
+selecting the districts of interest, I joined the data columns I joined the census data to the census tract geographies.
+
+In my model, I used the downtown houston district as my 'City Center' from which the model would measure the distance, direction, 
+and NSEW orientation of the districts. My 'Input features' were the greater Houston area districts. The results from the model 
+can be seen in the maps below. The first map gives a visual representation of the distances to the districts measured from downtown
+Houston, and the second map gives a visual representation of the NSEW orientation of the districts in relation to downtown Houston.
+
+![Distances](url)
+![Orientations](url)
 
 [Plot](Median_Gross_Rent_by_Direction_from_DTHOU.html)
 
