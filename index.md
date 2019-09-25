@@ -25,6 +25,27 @@ the median gross rent of that district. On this graph, 0 degrees = N, 90 degrees
 
 Click on this [plot](Median_Gross_Rent_by_Direction_from_DTHOU.html) to see this information graphed with DataPlotly.
 
+When applied to a metropolitan area, this model allows the user to analyze census data. After analyzing the data with this model, the user
+can draw conclusions from this data and disseminate the new data and conclusions. The creation of this model, the analysis of data, and
+the future drawing of conclusions illustrates the “Ambiguity of GIS as ‘Tool’ versus ‘Science’” Wright et al. delves into in their 2010
+article. Wright et al. explains that the three primary ways in which GIS is perceived are GIS as a toolmaking platform, GIS as a tool, and
+GIS as a science. In this instance, QGIS allowed for the creation of a tool (the model), the use of the model and GIS as a tool to analyze
+the data and visually display the data, and then finally ‘doing science’ by making conclusions from this new data with QGIS functions used
+to visually portray those conclusions. 
+
+As the Wright et al. article concludes, and the use of GIS here can be framed to support, GIS can be seen as a ‘continua’ between the
+classifications of tool, tool maker, and science. One of the cons to GIS is that anyone, especially with the development of opensource
+GIS, can become a ‘scientist,’ easily processing, analyzing, and drawing conclusions from data. The fear is that without the baseline
+geographic theories to contextualize the data analysis and conclusions, data can be easily misinterpreted or skewed. This may not be a
+misguided fear. In “The Discourse and Discipline of GIS,” Martin and Wing see many of their students view GIS as “positivist, 
+quantitative, and based on a Cartesian spatial logic” (236). A viewpoint that separates GIS practice from ‘human geography’ practice. The
+theories and techniques learned from studying geography are no longer a necessary backbone ‘to do’ geography because of GIS. 
+
+In fact, I am the perfect example of the human geographer’s nightmare! I have no background in geography, I have only ever used GIS as a
+tool for geologic application, but I can take a course, learn about modeling, and apply that GIS knowledge to create a model that works
+with social data instead of rock data. I will need to think critically about how I apply my GIS modeling to draw geographic conclusions in
+the future!
+
 
 
 ### Lab 1 - First Model!
