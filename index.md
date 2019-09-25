@@ -16,7 +16,7 @@ can be seen in the maps below. The first map gives a visual representation of th
 Houston, and the second map gives a visual representation of the NSEW orientation of the districts in relation to downtown Houston.
 
 ![Distance](Distance_Downtown_HOU_toDistricts.png)
-![Orientations](Median Gross Rent by Direction.png)
+![Orientations](Districts_Direction_fromHOU.png)
 
 [Plot](Median_Gross_Rent_by_Direction_from_DTHOU.html)
 
