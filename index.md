@@ -1,3 +1,13 @@
+### Lab 2 - First Model Revised!
+
+9/24/2019
+
+This model measures the distance, direction (degrees), and orientation (NSEW) of a polygon(s) from a central point or polygon
+
+### Lab 1 - First Model!
+
+In our first lab we made a model that measures the distance and direction from a point to the centroid of a polygon.
+Download [My First Model](Distance_and_direction_from_point.model3).
 
 ### Assignment 1
 
@@ -26,7 +36,3 @@ allowing people from different areas of research to contribute their supply chai
 geodatabase. The Open NETwork for Local Self Sustainability necessitates different groups working 
 together to achieve sustainability goals.
 
-### Lab 1 - First Model!
-
-In our first lab we made a model that measures the distance and direction from a point to the centroid of a polygon.
-Download [My First Model](Distance_and_direction_from_point.model3).
