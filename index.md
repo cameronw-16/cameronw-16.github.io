@@ -9,14 +9,14 @@ I used this model to analyze data from the Houston 2017 census on Median gross r
 Texas B25064 and B03002 tables in the 2017 ACS 5-year estimates topic on [American FactFinder](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml).
 The census tracts data for Texas was found [here](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html). The data I use is comprised of the Texas districts that I selected to make up the greater Houston area. After 
 selecting the districts of interest, I joined the data columns I joined the census data to the census tract geographies.
-
+![Model](model_img.png)
 In my model, I used the downtown houston district as my 'City Center' from which the model would measure the distance, direction, 
 and NSEW orientation of the districts. My 'Input features' were the greater Houston area districts. The results from the model 
 can be seen in the maps below. The first map gives a visual representation of the distances to the districts measured from downtown
 Houston, and the second map gives a visual representation of the NSEW orientation of the districts in relation to downtown Houston.
 
-![Distances](url)
-![Orientations](url)
+![Distance](Distance_Downtown_HOU_toDistricts.png)
+![Orientations](Median Gross Rent by Direction.png)
 
 [Plot](Median_Gross_Rent_by_Direction_from_DTHOU.html)
 
