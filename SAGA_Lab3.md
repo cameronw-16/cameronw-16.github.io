@@ -16,7 +16,7 @@ The third step was to create a hillshade visualization: Open Tools -> Terrain An
 This shows the relatively higher elevations as lighter greys, and the relatively lower elevations as darker greys.
 This new layer, and all the subsequent layers, should be made with the Elevation Grid system you created by changing the projection.
 
-![Hill_shade](saga_hillshade_map.jpg) ![hillshade_legend](saga_hillshade_map_legend.jpg)
+![Hill_shade](Analytical_hillshading_map1.jpg) ![hillshade_legend](saga_hillshade_map_legend.jpg)
 
 To detect sinks (areas where flow will pool and not be able to continue to flow normally and thus conflict with later steps), we used 
 the sink removal tool: Open Tools -> Terrain Anlysis -> Preprocessing ->Sink Drainage Route Detection.
