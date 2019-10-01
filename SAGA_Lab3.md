@@ -19,15 +19,23 @@ This new layer, and all the subsequent layers, should be made with the Elevation
 ![Hill_shade](Analytical_hillshading_map1.jpg) ![hillshade_legend](saga_hillshade_map_legend.jpg)
 
 To detect sinks (areas where flow will pool and not be able to continue to flow normally and thus conflict with later steps), we used 
-the sink removal tool: Open Tools -> Terrain Anlysis -> Preprocessing ->Sink Drainage Route Detection.
+the sink removal tool: Open Tools -> Terrain Anlysis -> Preprocessing ->Sink Drainage Route Detection. This output should not look too different from your mosaic.
 
+![mosaic_UTM]Mosaic_nosinks.jpg
+![mosaic_UTM_Legend]Mosaic_nosinks_legend.jpg
 
+Next, I calculated the areas where water should flow with Flow Accumulation. Open Tools -> Terrain Analysis ->Hydrology ->Flow Accumulation (top-down). I used the Sink-filled DEM as my elevation source, and sink routes were my Sink Routes!
 
-![mosaic_UTM]
+![FAmap]Flow_Accumulation_map.jpg
+![FAmaplegend]Flow_Accumulation_map_legend.jpg
+
+Finally, to create and visualize the water channels, use the Channel Network tool. Open Tools -> Terrain Analysis -> Channels -> Channel Network. Again, use the Sink-filled DEM for the elevation and the Flow Accumulation as the Initialization Grid.
+
+![Channel_networkmap]Channel_Network_map.jpg
+![Channel_Networklegend]Channel_Network_map_legend.jpg
 
 Sources:
 NASA/METI/AIST/Japan Spacesystems, and U.S./Japan ASTER Science Team. ASTER Global Digital Elevation
 Model V003. 2019, distributed by NASA EOSDIS Land Processes DAAC,
 https://doi.org/10.5067/ASTER/ASTGTM.003.
-
 Opensource GISience course at Middlebury College
