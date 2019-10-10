@@ -1,4 +1,7 @@
 ### Lab 3 - Global Digital Elevation Models
+
+9/26/2019
+
 In [Lab 3](SAGA_Lab3.md) we worked with SAGA to create a model of streams and rivers based off of an Aster DEM.
 
 ### Lab 2 - First Model Revised!
