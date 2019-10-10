@@ -1,4 +1,4 @@
-###Lab Three: Digital Elevation Models
+### Lab Three: Digital Elevation Models
 9/26/2019
 
 Today we worked with SAGA to create a model of streams and rivers based off of an Aster DEM. We chose to work with Mount Kilimanjaro,
