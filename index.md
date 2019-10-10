@@ -1,3 +1,9 @@
+### Lab 4 - Model Error Propagation and Uncertainty
+
+10/9/2019
+
+In [Lab 4](Lab4.md) I preformed a hydrological analysis of Mount Kilimanjaro with both Aster and SRTM data. The hydrological analysis was preformed with these two data types in order to compare the two results and find the preferable data source for this use.
+
 ### Lab 3 - Global Digital Elevation Models
 
 9/26/2019
