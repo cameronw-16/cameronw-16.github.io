@@ -21,6 +21,8 @@ if not exist %od% mkdir %od%
 :: Run Mosaicking tool, with consideration for the input -GRIDS
 saga_cmd grid_tools 3 -GRIDS=S04E037_elevation.sgrd;S03E037_elevation.sgrd -NAME=%pre%mosaic.sgrd -TYPE=9 -RESAMPLING=1 -OVERLAP=3 -MATCH=0 -TARGET_OUT_GRID=%od%\%pre%mosaic.sgrd -TARGET_DEFINITION=0 -TARGET_USER_SIZE=0.000278 -TARGET_USER_XMIN=37.000277 -TARGET_USER_XMAX=37.700000 -TARGET_USER_YMIN=-3.499723 -TARGET_USER_YMAX=-2.700000 -TARGET_USER_FITS=0
 ```
+Generates:
+![esrtm_pic](esrtml4mosaic.png) ![esrtm_leg](esrtml4mosaic_legend.png)
 
 To use this script with ASTER data, simply change the prefixes to indicate that the outputs will be ASTER files, and within the mosaicking tool change the Grids inputs to the ASTER files you want to mosaick. Here I defined the mosaick to make a 'cropped' DEM of the area right around Mount Kilimanjaro. This is a step I added in later because the Mosaicking tool did not create exactly the same grid systems for the ASTER and ESRTM data, which did not allow the ASTER DEMs (and the analysis grids created based off of these DEMs) to be compared to the ESRTM DEMs (and the analysis grids based off of these DEMs). This way, I could ensure that the grids I was creating were being created using the same grid system.
 
