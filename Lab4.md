@@ -72,9 +72,9 @@ Flow accumulation output for ESRTM input data (I palyed with the colors, mode (l
 Channel Network output for ESRTM input data:
 ![esrtm_chnlnet](esrtm_chnlnetw.png) ![esrtm_chnlnet_ledge](esrtm_chnlnetw_legend.png)
 
-## Here are the full batch scripts I created using [ESRTM data](ESRTML4_analysis.bat) and [ASTER data](ASTERL4_analysis.bat).
+### Here are the full batch scripts I created using [ESRTM data](ESRTML4_analysis.bat) and [ASTER data](ASTERL4_analysis.bat).
 
-### ESRTM vs ASTER for Flow Analysis
+## ESRTM vs ASTER for Flow Analysis
 
 The next step of this analysis was to compare the ESRTM input data flow anlysis to the ASTER input data flow analysis. To do this I used the Grid Difference tool (Grid --> Calculus --> Grid Difference) to find the difference between the elevation data and Flow Accumulation for ESRTM and ASTER (subtract the ASTER4LmosaicUTM.sgrd frpm ESRTM4LmosaicUTM.sgrd and ESRTML4flowaccumulation.sgrd from ASTERL4flowaccumulation.sgrd).
 
