@@ -85,3 +85,4 @@ Elevation difference:
 Flow Accumulation difference:
 
 ![flow_Ac_dif](flow_ac_dif_esrtm_aster.png) ![legend](flow_ac_dif_esrtm_aster_legend.png)
+
