@@ -86,3 +86,9 @@ Flow Accumulation difference:
 
 ![flow_Ac_dif](flow_ac_dif_esrtm_aster.png) ![legend](flow_ac_dif_esrtm_aster_legend.png)
 
+The areas of greatest difference between the elevation and flow accumulation were areas of 
+
+![asternum](asternumcol.png) ![asternum_leg](asternumcol_legend.png)
+![SRTMnum](srtmnumcol.png) ![SRTMnum_leg](srtmnumcol_legend.png)
+![qgisflowcomp](flowacc_comparison.png)
+
