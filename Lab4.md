@@ -95,6 +95,6 @@ To better understand why Aster and SRTM data have these differences, I took a lo
 ![asternum](asternumcol.png) ![asternum_leg](asternumcol_legend.png)
 ![SRTMnum](srtmnumcol.png) ![SRTMnum_leg](srtmnumcol_legend.png)
 
-Aster uses SRTM data to fill in its areas of missing data (the pink color), while SRTM 
+Aster uses SRTM V2 GDEM 3 data to fill in its areas of missing data (the pink color), and has a few (black) areas of interpolation. SRTM however has water masked areas where there do not appear to be water masked areas (see satelite image below). These areas are areas appear in the steeply sloped valleys coming off of the western Kilimanjaro peak and are areas where the elevation difference map has extremly high differences in elevation. So while SRTM uses only SRTM elevation data in the selected area of study, the false water masked areas may not provide the best elevation data for this project. The Aster data has a small spot of SRTM data right at the peak of Kilimanjaro, and then other small spots to the West. The Aster missing data seems to have less data missing when comparing the SRTM fill data used in the Aster data and the incorectly water masked areas from the SRTM data.
 ![qgisflowcomp](flowacc_comparison.png)
 
