@@ -82,6 +82,7 @@ Elevation difference:
 
 ![elevation_diff](elev_dif_esrtm_aster.png) ![legend](elev_dif_esrtm_aster_legend.png)
 
+The greatest differences in elevation are the steepest areas, especially where there are steep, thin valleys near the peak of Kilimanjaro.
 Flow Accumulation difference:
 
 ![flow_Ac_dif](flow_ac_dif_esrtm_aster.png) ![legend](flow_ac_dif_esrtm_aster_legend.png)
