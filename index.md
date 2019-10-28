@@ -1,3 +1,5 @@
+### SQL Lab
+In our recent [SQL Lab](sqllab.md)
 ### Lab 4 - Model Error Propagation and Uncertainty
 
 10/9/2019
