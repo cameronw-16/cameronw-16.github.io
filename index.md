@@ -1,5 +1,6 @@
 ### SQL Lab
-In our recent [SQL Lab](sqllab.md)
+In our recent [SQL Lab](sqllab.md) we used drain and wetland data from [Ramani Huria](http://ramanihuria.org/) to visualize drain density per subward and the intersection of subwards with wetlands. We used SQL queries to analyze and visualize the data. This lab is presented as a potential lesson plan/tutorial for other students.
+
 ### Lab 4 - Model Error Propagation and Uncertainty
 
 10/9/2019
