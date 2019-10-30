@@ -51,6 +51,7 @@ set draincount = subwardcount
 from subwardcount1 
 where subwardcount1.subward = subwards.fid;
 '''
+
 Now you have figured out the drains that fall into each subward (st_intersects), counted the number of drains in that subward (count()), and you have added a column to the subwards table for the draincount of each subward
 
 Next we’ll calculate the area of the subwards in meters squared and use that and the draincount to find the draindensity of each subward.
