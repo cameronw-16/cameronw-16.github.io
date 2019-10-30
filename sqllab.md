@@ -35,7 +35,8 @@ select count(subward) as subwardcount, subward
 from drains
 group by subward;
  
-/*To create a separate table ‘subwardcount1’ of the query above (a table with two columns: subward and subwardcount) either click create view in the SQL window or add the create view*/
+/*To create a separate table ‘subwardcount1’ of the query above (a table with two columns: subward and subwardcount) 
+either click create view in the SQL window or add the create view*/
 line (shown below) to your query
 create view subwardcount1 as
 select count(subward) as subwardcount, subward 
@@ -45,7 +46,8 @@ group by subward;
 /*Add column ‘draincount’ to table ‘subwards’ for integer inputs*/
 alter table subwards add column draincount integer;
 
-/*Update the new ‘draincount’ column with the ‘subwardcount’ from the ‘subwardcount1’ table where the fid from subwards table and the subward from the subwardcount1 table are equal*/
+/*Update the new ‘draincount’ column with the ‘subwardcount’ from the ‘subwardcount1’ table where the fid from subwards
+table and the subward from the subwardcount1 table are equal*/
 update subwards 
 set draincount = subwardcount 
 from subwardcount1 
@@ -57,7 +59,8 @@ Now you have figured out the drains that fall into each subward (st_intersects),
 Next we’ll calculate the area of the subwards in meters squared and use that and the draincount to find the draindensity of each subward.
 
 ```
-/*Choose only the data from the ‘subwards’ table that you want in a new smaller table AND create an ‘subward_area’ column of the area ‘geom’ in square meters*/
+/*Choose only the data from the ‘subwards’ table that you want in a new smaller table AND create an ‘subward_area’ 
+column of the area ‘geom’ in square meters*/
 create view subward_area as
 select fid, draincount, st_area(geography(geom)) as area1 
 from subwards;
