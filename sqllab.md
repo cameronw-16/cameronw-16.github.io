@@ -8,7 +8,7 @@ To visualize our final results of drain density by subward, click on the map bel
 In this lab we used SQL queries via PostGIS and visualized all of the results in QGIS. We used data from [Ramani Huria](http://ramanihuria.org/data/) which is accessible through [OpenStreetMap](https://www.openstreetmap.org/#map=4/38.01/-95.84) and [Resilience Academy](https://resilienceacademy.ac.tz/data/) to do a spatial analysis of sub-ward flooding vulnerability and resilience related to drain density and wetland proximity in Dar es Salaam, Tanzania. 
 
 Layers Used for Analysis:
-[Dar es Salaam Drains’ Locations](https://geonode.resilienceacademy.ac.tz/layers/geonode:drain_points) 
+[Dar es Salaam Drains’ Locations](https://geonode.resilienceacademy.ac.tz/layers/geonode:drain_points) and 
 [Dar es Salaam Administrative Sub-wards](https://geonode.resilienceacademy.ac.tz/layers/geonode:dar_es_salaam_subwards) 
 
 Methods:
