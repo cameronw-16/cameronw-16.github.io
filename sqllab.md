@@ -15,6 +15,7 @@ Methods:
 1) Download Drains’ Locations and Administrative Sub-wards data from Resilience Academy.
 2) Find drain density by sub-ward:
 Here’s the series of SQL queries utilized for drain density analysis with one-line comments indicated by ‘/*’. Within SQL, the Drains’ Locations vector layer was re-named ‘drains,’ Administrative Sub-wards layer was re-named ‘subwards’
+
 '''
 /* add a new column ‘subward’ to table ‘drains’ with an integer data type*/
 alter table drains add column subward integer;
