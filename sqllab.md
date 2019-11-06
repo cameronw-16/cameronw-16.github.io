@@ -1,4 +1,4 @@
-##Lab Six: Resilience Academy in Dar es Salaam 
+## Lab Six: Resilience Academy in Dar es Salaam 
 
 To visualize our final results of drain density by subward, click on the map below.
 
