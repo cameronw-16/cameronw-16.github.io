@@ -12,7 +12,8 @@ Layers Used for Analysis:
 [Dar es Salaam Administrative Sub-wards](https://geonode.resilienceacademy.ac.tz/layers/geonode:dar_es_salaam_subwards) 
 
 Methods:
-1) Download Drains’ Locations and Administrative Sub-wards data from Resilience Academy.
+1) Download Drains’ Locations and Administrative Sub-wards data from Resilience Academy and load those files into DB Manager. 
+ - import layer/file --> simplify table name --> change primary id to unique primary identifier for the data points in the table --> check 'convert field names to lower case' --> check 'create spatial index'
 2) Find drain density by sub-ward:
 Here’s the series of SQL queries utilized for drain density analysis with one-line comments indicated by ‘/*’. Within SQL, the Drains’ Locations vector layer was re-named ‘drains,’ Administrative Sub-wards layer was re-named ‘subwards’
 
