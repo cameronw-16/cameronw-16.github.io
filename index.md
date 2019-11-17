@@ -1,5 +1,5 @@
 ### Twitter Data 'use case'
-[A review](blog2.md) of the reproducability and replicability of "Who Tweets with Their Location? Understanding the Relationship between Demographic Characteristics and the Use of Geoservices and Geotagging on Twitter"
+[A review](blog2.md) of the reproducability and replicability of "Who Tweets with Their Location? Understanding the Relationship between Demographic Characteristics and the Use of Geoservices and Geotagging on Twitter" by Luke Sloan and Jeffery Morgan
 
 ### SQL Lab
 In our recent [SQL Lab](sqllab.md) we used drain and wetland data from [Ramani Huria](http://ramanihuria.org/) to visualize drain density per subward and the intersection of subwards with wetlands. We used SQL queries to analyze and visualize the data. This lab is presented as a potential lesson plan/tutorial for other students.
