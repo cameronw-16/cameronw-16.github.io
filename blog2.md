@@ -18,6 +18,7 @@ Programs Used:
 Gender ID: 40,000 Namen (40N) database - method taken from Michael 2007 + text cleaning methods
 preferred language ID: Language Detection Library for Java (LDLJ 2012)
 Location ID:  YAHOO!\ PlaceFinder(2012) geographic database + smaller data sample size extraction
+Class/Occupation ID: COSMOS class engine - Luke Sloan et al. 2015
 
 Conclusions
 - women are more likely to enable location services (+0.8% as compared to males)
