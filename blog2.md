@@ -18,7 +18,6 @@ Programs Used:
 Gender ID: 40,000 Namen (40N) database - method taken from Michael 2007 + text cleaning methods
 preferred language ID: Language Detection Library for Java (LDLJ 2012)
 Location ID:  YAHOO!\ PlaceFinder(2012) geographic database + smaller data sample size extraction
-Class/Occupation ID: COSMOS class engine - Luke Sloan et al. 2015
 
 Conclusions
 - women are more likely to enable location services (+0.8% as compared to males)
@@ -26,4 +25,4 @@ Conclusions
 - generally a slightly older population that enables geotagging (+0.82 years) and location services (+0.55 years)
 - users with Russian interface and/or tweeted in Russian were least likely to enable location services
 - Turkis Portuguese and Indonesian user interfaces were the most likely to enable location services and geotag tweets
-- Lower managerial, administrative and professional occupations are most likely to geottag
+
