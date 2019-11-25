@@ -11,6 +11,9 @@ The results were similar in that the southern end of Malawi tended to score high
 ![grid](hhresilliencegrid.png)
 ![TAs](TAcapacities.png)
 
+Malcomb et al. results:
+![malcomb_grid](malcomb_grid.jpg)
+![malcomb_TA](malcomb_TA.jpg)
 Sources:
 Malcomb, D. W., E. A. Weaver, and A. R. Krakowka. 2014. Vulnerability modeling for sub-Saharan Africa: An
 operationalized approach in Malawi. Applied Geography 48:17–30.
