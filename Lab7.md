@@ -18,3 +18,5 @@ operationalized approach in Malawi. Applied Geography 48:17–30.
 Open Source GIScience course Middlebury College
 
 PostGIS, QGIS
+
+Find the data sets, models, qgis project and [layers here](L78_data).
