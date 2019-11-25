@@ -16,3 +16,5 @@ Malcomb, D. W., E. A. Weaver, and A. R. Krakowka. 2014. Vulnerability modeling f
 operationalized approach in Malawi. Applied Geography 48:17–30.
 
 Open Source GIScience course Middlebury College
+
+PostGIS, QGIS
