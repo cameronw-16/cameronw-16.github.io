@@ -14,4 +14,5 @@ The results were similar in that the southern end of Malawi tended to score high
 Sources:
 Malcomb, D. W., E. A. Weaver, and A. R. Krakowka. 2014. Vulnerability modeling for sub-Saharan Africa: An
 operationalized approach in Malawi. Applied Geography 48:17–30.
+
 Open Source GIScience course Middlebury College
