@@ -1,3 +1,7 @@
+
+### Malawi Resilience Labs 7&8
+Reproducibility of a Malawi physical exposure resilience study. See the results [here](Lab7.md)
+
 ### Twitter Data 'use case'
 [A review](blog2.md) of the reproducability and replicability of "Who Tweets with Their Location? Understanding the Relationship between Demographic Characteristics and the Use of Geoservices and Geotagging on Twitter" by Luke Sloan and Jeffery Morgan
 
