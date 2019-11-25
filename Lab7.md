@@ -19,4 +19,4 @@ Open Source GIScience course Middlebury College
 
 PostGIS, QGIS
 
-Find the data sets, models, qgis project and layers [here](L78_data).
+Find the data sets, models, qgis project and layers [here](L78_data.zip).
