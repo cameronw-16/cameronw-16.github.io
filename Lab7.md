@@ -6,7 +6,8 @@ To do this, data was collected from GDAM, DHS survey data, and UNEP Global Risk 
 [My Model](malawi_lab.model3)
 
 Results:
-The results were similar in that the southern end of Malawi tended to score higher on the resilience measurements; however, we we were not able to include all of the data the author used (missing the Livelihood Sensitivity from FEWSnet)
+The results were similar in that the southern end of Malawi tended to score higher on the resilience measurements; however, wour reproduction was not complete. Principally, we we were not able to include all of the data the author used (missing the Livelihood Sensitivity from FEWSnet), and there was uncertainty in how the quantile values were assigned to the boolean DHS survey responses.
+
 ![grid](hhresilliencegrid.png)
 ![TAs](TAcapacities.png)
 
