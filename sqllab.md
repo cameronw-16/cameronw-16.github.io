@@ -1,4 +1,5 @@
 ## Lab Six: Resilience Academy in Dar es Salaam 
+By Cameron Weiner and Celia Ripple
 
 To visualize our final results of drain density by subward, click on the map below.
 
@@ -131,4 +132,6 @@ Adding in a wetland component to the vulnerability/resilience analysis could be 
 
 Resources:
 Celia Ripple, Middlebury College Open Source GIScience course, QGIS, PostGIS, Resilience Academy, OpenStreetMap, OSM2toSQL
+
+Complete [SQL file](noteslab5.sql)
 
