@@ -133,15 +133,15 @@ set ndtid = ndti1
 from ndti_view4
 where ndti_view4.countyfp = counties.countyfp;
 ```
-[doriantwtrate](twtrated.png)
-[ndti](ndti.png)
+![doriantwtrate](twtrated.png)
+![ndti](ndti.png)
 
 
 ### GeoDa analysis
 GeoDa is an open-source GIS program that generates spatial statistics and can connect to PostGIS. From the counties table, we calculated the local G* statistic. The G* statistic measures the variation within a data set. We measured the variation of the tweet rate (twtrate). Twtrate is the number of tweets per 10000 people in each county. The G* statistic, measuring variation by county of tweet rate, created the following maps, visualized with a 0.05 significance:
 
-[significance map](countiesGIsigmap.png)
-[cluster map](countiesGetisOrdMapFrame.png)
+![significance map](countiesGIsigmap.png)
+![cluster map](countiesGetisOrdMapFrame.png)
 Workflow to create these maps: 
 Tools -> Weights Manager (weights file id variable: geoid; threshold distance default) -> Create
 Space -> local G* cluster map (variable: twtrate) -> create (cluster map and row-standardized weights)
@@ -149,7 +149,7 @@ Space -> local G* cluster map (variable: twtrate) -> create (cluster map and row
 ### QGIS Analysis
 A heatmap (kernel density estimation) was weighted using the tweet rate of Dorian tweets. The pixel size was 500 meters, and the radius was 100,000 m.
 
-[heatmap](heatmap.png)
+![heatmap](heatmap.png)
 
 ### Analysis
 
