@@ -153,3 +153,4 @@ A heatmap (kernel density estimation) was weighted using the tweet rate of Doria
 
 ### Analysis
 
+My results showed high significant tweets in Florida, along the eastern US coastline, and then in the Northeast. There was some patches of dorian related tweets in Louisiana and Alabama that could have been the result of President Trump's 'Fake Shaprie Map,' but the majority of the signifiantly high tweet rates about Dorian came from the East Coast. The Northestern high significance of tweets is a surprising result from the G* signifiance maps. The significantly low tweets about dorian in the center of the East seems to fit with Hurricane Dorian's actual path. The tweet rate about Dorian per 10000 people (shown by the heat map and county map above).
