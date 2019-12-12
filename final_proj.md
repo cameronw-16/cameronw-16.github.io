@@ -53,11 +53,18 @@ When looking closely near the river channel, the braids and old oxbows can be se
 The results from this project are preliminary. More investigation should be done into what interpolation method would provide the most accurate/precise stream elevation raster. More investigation into the ideal flow accumulation cell number to create a channel network should be undertaken to see what channel network extent will yield the best flood plain maps to asses flood hazards (maybe only the Middlebury River stream channel?). It would also be interesting to find flood extents and Middlebury River flow rates from the storms in the past 20 years to re-assign the recurrence frequency of the flood plains.
 
 References, Sources, and Software used:
+
 Open Source GIS course at Middlebury College; Professor Holler
-Conrad, O., Bechtel, B., Bock, M., Dietrich, H., Fischer, E., Gerlitz, L., Wehberg, J., Wichmann, V., and Böhner, J. (2015): System for Automated Geoscientific Analyses (SAGA) v. 3.2.1, Geosci. Model Dev., 8, 1991-2007, doi:10.5194/gmd-8-1991-2015.
-Conrad, O., Bechtel, B., Bock, M., Dietrich, H., Fischer, E., Gerlitz, L., Wehberg, J., Wichmann, V., and Böhner, J. (2015): System for Automated Geoscientific Analyses (SAGA) v. 6.2, Geosci. Model Dev., 8, 1991-2007, doi:10.5194/gmd-8-1991-2015. Download.
+
+Conrad, O., Bechtel, B., Bock, M., Dietrich, H., Fischer, E., Gerlitz, L., Wehberg, J., Wichmann, V., and Böhner, J. (2015): System for Automated Geoscientific Analyses (SAGA) v. 2.3.2, Geosci. Model Dev., 8, 1991-2007, doi:10.5194/gmd-8-1991-2015.
+
+Conrad, O., Bechtel, B., Bock, M., Dietrich, H., Fischer, E., Gerlitz, L., Wehberg, J., Wichmann, V., and Böhner, J. (2019): System for Automated Geoscientific Analyses (SAGA) v. 6.2, Geosci. Model Dev., 8, 1991-2007, doi:10.5194/gmd-8-1991-2015. Download.
+
 “FEMA Flood Map Service Center: Search By Address.” FEMA, msc.fema.gov/portal/search?AddressQuery=ripton%2Bvermont#searchresultsanchor.
+
 Flowers, John. “One More Test for Middlebury River Flood Project.” Addison County Independent, 2 Sept. 2019, addisonindependent.com/news/one-more-test-middlebury-river-flood-project.
 matcham2.0. “Inverse Distance Weighting in SAGA.” Spatially Challenged, 6 May 2019, spatiallychallenged.com/2019/05/09/inverse-distance-weighting-in-saga/.
+
 “QGIS Development Team (2019). QGIS Geographic Information System. Open Source Geospatial Foundation Project. http://qgis.osgeo.org”.
+
 “SAGA-GIS Module Library Documentation (v2.2.5).” Full Module Index / SAGA-GIS Module Library Documentation (v2.2.5), www.saga-gis.org/saga_tool_doc/2.2.5/a2z.html.
