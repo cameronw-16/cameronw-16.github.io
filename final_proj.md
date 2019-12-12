@@ -16,11 +16,11 @@ After generating a flow analysis, the next step in creating a flood plain map wa
 
 The steps taken in SAGA are documented with each tool and parameter used in the final elevation difference raster’s [tool chain history](difference_toolchain.xml). The steps are also outlined below:
 
-I downloaded lidar data into SAGA GIS 2.3.2 and opened the 9 tiles on the same map.
+I downloaded lidar data into SAGA GIS 2.3.2 and opened the 9 tiles on the same map. I am not sure exactly what the different parameters were, but something in the Mosaicking tool in SAGA 6 was giving me a mosaic that had slight gaps between the North/South borders of the Lidar tiles. These gaps did not allow for a continuous stream flow analysis, so I created a mosaic in Saga 2.3.2 first and then preformed the rest of the analysis in Saga 6.2.0
 
-----Open Tools -> Grid -> Tools -> Masaicking
+----Open Tools -> Grid -> Tools -> Mosaicking
 
-First, I created a point file from the stream channel line vector file. This step was necessary because in order to perform an Inverse Distance Weighted (IDW) interpolation you must have data points not lines.
+I then transferred to Saga 6.2.0 to finish the rest of the flow analysis. I created a point file from the stream channel line vector file. This step was necessary because in order to perform an Inverse Distance Weighted (IDW) interpolation you must have data points not lines.
 
 ----Shapes -> points -> convert lines to points (lines: chanlshapes file.shp, Points: create, insert additional points (check), Insertion: per line segment, Insertion Distance: 1, Add point order: unchecked)
 
