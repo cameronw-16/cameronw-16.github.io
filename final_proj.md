@@ -58,7 +58,7 @@ Open Source GIS course at Middlebury College; Professor Holler
 
 Conrad, O., Bechtel, B., Bock, M., Dietrich, H., Fischer, E., Gerlitz, L., Wehberg, J., Wichmann, V., and Böhner, J. (2015): System for Automated Geoscientific Analyses (SAGA) v. 2.3.2, Geosci. Model Dev., 8, 1991-2007, doi:10.5194/gmd-8-1991-2015.
 
-Conrad, O., Bechtel, B., Bock, M., Dietrich, H., Fischer, E., Gerlitz, L., Wehberg, J., Wichmann, V., and Böhner, J. (2019): System for Automated Geoscientific Analyses (SAGA) v. 6.2, Geosci. Model Dev., 8, 1991-2007, doi:10.5194/gmd-8-1991-2015. Download.
+Conrad, O., Bechtel, B., Bock, M., Dietrich, H., Fischer, E., Gerlitz, L., Wehberg, J., Wichmann, V., and Böhner, J. (2015): System for Automated Geoscientific Analyses (SAGA) v. 6.2, Geosci. Model Dev., 8, 1991-2007, doi:10.5194/gmd-8-1991-2015. [Download](http://www.geosci-model-dev.net/8/1991/2015/gmd-8-1991-2015.html).
 
 “FEMA Flood Map Service Center: Search By Address.” FEMA, msc.fema.gov/portal/search?AddressQuery=ripton%2Bvermont#searchresultsanchor.
 
