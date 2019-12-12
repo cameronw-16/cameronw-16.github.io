@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolchain saga-version="6.2.0">
+  <group>toolchains</group>
+  <identifier>difference_toolchain</identifier>
+  <name>difference_toolchain</name>
+  <description>created from history</description>
+  <parameters>
+    <input varname="tool_05__GRIDS" type="grid_list">
+      <name>Grids</name>
+    </input>
+    <input varname="tool_18__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_18__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_18__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_18__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_18__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_18__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_18__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_18__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_18__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_18__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_15__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_15__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_15__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_15__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_15__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_15__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_15__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_15__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_15__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_15__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_12__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_12__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_12__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_12__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_12__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_12__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_12__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_12__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_12__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_12__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_09__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_09__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_09__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_09__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_09__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_09__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_09__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_09__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_09__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_09__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_03__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_03__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_03__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_03__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_03__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_03__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_03__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_03__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_03__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <input varname="tool_03__GRIDS" type="grid_list">
+      <name>Input Grids</name>
+    </input>
+    <output varname="tool_01__C" type="grid">
+      <name>Difference (A - B)</name>
+    </output>
+  </parameters>
+  <tools>
+    <tool library="grid_tools" tool="3" name="Mosaicking">
+      <output id="TARGET_OUT_GRID">tool_18__TARGET_OUT_GRID</output>
+      <option id="NAME">Mosaic</option>
+      <option id="TYPE">8</option>
+      <option id="RESAMPLING">1</option>
+      <option id="OVERLAP">3</option>
+      <option id="MATCH">0</option>
+      <option id="TARGET_DEFINITION">0</option>
+      <option id="TARGET_USER_SIZE">0.700000</option>
+      <option id="TARGET_USER_XMIN">448000.350000</option>
+      <option id="TARGET_USER_XMAX">453598.250000</option>
+      <option id="TARGET_USER_YMIN">161000.350000</option>
+      <option id="TARGET_USER_YMAX">165198.950000</option>
+      <option id="TARGET_USER_FITS">0</option>
+      <input id="GRIDS">tool_18__GRIDS</input>
+      <input id="GRIDS">tool_18__GRIDS</input>
+      <input id="GRIDS">tool_18__GRIDS</input>
+      <input id="GRIDS">tool_18__GRIDS</input>
+      <input id="GRIDS">tool_18__GRIDS</input>
+      <input id="GRIDS">tool_18__GRIDS</input>
+      <input id="GRIDS">tool_18__GRIDS</input>
+      <input id="GRIDS">tool_18__GRIDS</input>
+      <input id="GRIDS">tool_18__GRIDS</input>
+      <input id="GRIDS">tool_18__GRIDS</input>
+    </tool>
+    <tool library="pj_proj4" tool="24" name="UTM Projection (Grid)">
+      <output id="GRID">tool_17__GRID</output>
+      <option id="CRS_METHOD">0</option>
+      <option id="RESAMPLING">1</option>
+      <option id="KEEP_TYPE">TRUE</option>
+      <option id="TARGET_AREA">FALSE</option>
+      <option id="TARGET_DEFINITION">0</option>
+      <option id="TARGET_USER_SIZE">0.730000</option>
+      <option id="TARGET_USER_XMIN">648504.990000</option>
+      <option id="TARGET_USER_XMAX">654226.730000</option>
+      <option id="TARGET_USER_YMIN">4867698.400000</option>
+      <option id="TARGET_USER_YMAX">4872064.530000</option>
+      <option id="TARGET_USER_FITS">0</option>
+      <option id="UTM_ZONE">18</option>
+      <option id="UTM_SOUTH">FALSE</option>
+      <input id="SOURCE">tool_18__TARGET_OUT_GRID</input>
+    </tool>
+    <tool library="ta_preprocessor" tool="1" name="Sink Drainage Route Detection">
+      <output id="SINKROUTE">tool_16__SINKROUTE</output>
+      <option id="THRESHOLD">FALSE</option>
+      <option id="THRSHEIGHT">100.000000</option>
+      <input id="ELEVATION">tool_17__GRID</input>
+    </tool>
+    <tool library="grid_tools" tool="3" name="Mosaicking">
+      <output id="TARGET_OUT_GRID">tool_15__TARGET_OUT_GRID</output>
+      <option id="NAME">Mosaic</option>
+      <option id="TYPE">8</option>
+      <option id="RESAMPLING">1</option>
+      <option id="OVERLAP">3</option>
+      <option id="MATCH">0</option>
+      <option id="TARGET_DEFINITION">0</option>
+      <option id="TARGET_USER_SIZE">0.700000</option>
+      <option id="TARGET_USER_XMIN">448000.350000</option>
+      <option id="TARGET_USER_XMAX">453598.250000</option>
+      <option id="TARGET_USER_YMIN">161000.350000</option>
+      <option id="TARGET_USER_YMAX">165198.950000</option>
+      <option id="TARGET_USER_FITS">0</option>
+      <input id="GRIDS">tool_15__GRIDS</input>
+      <input id="GRIDS">tool_15__GRIDS</input>
+      <input id="GRIDS">tool_15__GRIDS</input>
+      <input id="GRIDS">tool_15__GRIDS</input>
+      <input id="GRIDS">tool_15__GRIDS</input>
+      <input id="GRIDS">tool_15__GRIDS</input>
+      <input id="GRIDS">tool_15__GRIDS</input>
+      <input id="GRIDS">tool_15__GRIDS</input>
+      <input id="GRIDS">tool_15__GRIDS</input>
+      <input id="GRIDS">tool_15__GRIDS</input>
+    </tool>
+    <tool library="pj_proj4" tool="24" name="UTM Projection (Grid)">
+      <output id="GRID">tool_14__GRID</output>
+      <option id="CRS_METHOD">0</option>
+      <option id="RESAMPLING">1</option>
+      <option id="KEEP_TYPE">TRUE</option>
+      <option id="TARGET_AREA">FALSE</option>
+      <option id="TARGET_DEFINITION">0</option>
+      <option id="TARGET_USER_SIZE">0.730000</option>
+      <option id="TARGET_USER_XMIN">648504.990000</option>
+      <option id="TARGET_USER_XMAX">654226.730000</option>
+      <option id="TARGET_USER_YMIN">4867698.400000</option>
+      <option id="TARGET_USER_YMAX">4872064.530000</option>
+      <option id="TARGET_USER_FITS">0</option>
+      <option id="UTM_ZONE">18</option>
+      <option id="UTM_SOUTH">FALSE</option>
+      <input id="SOURCE">tool_15__TARGET_OUT_GRID</input>
+    </tool>
+    <tool library="ta_hydrology" tool="0" name="Flow Accumulation (Top-Down)">
+      <output id="FLOW">tool_13__FLOW</output>
+      <option id="STEP">1</option>
+      <option id="FLOW_UNIT">0</option>
+      <option id="METHOD">4</option>
+      <option id="LINEAR_DO">TRUE</option>
+      <option id="LINEAR_MIN">500</option>
+      <option id="CONVERGENCE">1.100000</option>
+      <input id="ELEVATION">tool_14__GRID</input>
+      <input id="SINKROUTE">tool_16__SINKROUTE</input>
+    </tool>
+    <tool library="grid_tools" tool="3" name="Mosaicking">
+      <output id="TARGET_OUT_GRID">tool_12__TARGET_OUT_GRID</output>
+      <option id="NAME">Mosaic</option>
+      <option id="TYPE">8</option>
+      <option id="RESAMPLING">1</option>
+      <option id="OVERLAP">3</option>
+      <option id="MATCH">0</option>
+      <option id="TARGET_DEFINITION">0</option>
+      <option id="TARGET_USER_SIZE">0.700000</option>
+      <option id="TARGET_USER_XMIN">448000.350000</option>
+      <option id="TARGET_USER_XMAX">453598.250000</option>
+      <option id="TARGET_USER_YMIN">161000.350000</option>
+      <option id="TARGET_USER_YMAX">165198.950000</option>
+      <option id="TARGET_USER_FITS">0</option>
+      <input id="GRIDS">tool_12__GRIDS</input>
+      <input id="GRIDS">tool_12__GRIDS</input>
+      <input id="GRIDS">tool_12__GRIDS</input>
+      <input id="GRIDS">tool_12__GRIDS</input>
+      <input id="GRIDS">tool_12__GRIDS</input>
+      <input id="GRIDS">tool_12__GRIDS</input>
+      <input id="GRIDS">tool_12__GRIDS</input>
+      <input id="GRIDS">tool_12__GRIDS</input>
+      <input id="GRIDS">tool_12__GRIDS</input>
+      <input id="GRIDS">tool_12__GRIDS</input>
+    </tool>
+    <tool library="pj_proj4" tool="24" name="UTM Projection (Grid)">
+      <output id="GRID">tool_11__GRID</output>
+      <option id="CRS_METHOD">0</option>
+      <option id="RESAMPLING">1</option>
+      <option id="KEEP_TYPE">TRUE</option>
+      <option id="TARGET_AREA">FALSE</option>
+      <option id="TARGET_DEFINITION">0</option>
+      <option id="TARGET_USER_SIZE">0.730000</option>
+      <option id="TARGET_USER_XMIN">648504.990000</option>
+      <option id="TARGET_USER_XMAX">654226.730000</option>
+      <option id="TARGET_USER_YMIN">4867698.400000</option>
+      <option id="TARGET_USER_YMAX">4872064.530000</option>
+      <option id="TARGET_USER_FITS">0</option>
+      <option id="UTM_ZONE">18</option>
+      <option id="UTM_SOUTH">FALSE</option>
+      <input id="SOURCE">tool_12__TARGET_OUT_GRID</input>
+    </tool>
+    <tool library="ta_preprocessor" tool="1" name="Sink Drainage Route Detection">
+      <output id="SINKROUTE">tool_10__SINKROUTE</output>
+      <option id="THRESHOLD">FALSE</option>
+      <option id="THRSHEIGHT">100.000000</option>
+      <input id="ELEVATION">tool_11__GRID</input>
+    </tool>
+    <tool library="grid_tools" tool="3" name="Mosaicking">
+      <output id="TARGET_OUT_GRID">tool_09__TARGET_OUT_GRID</output>
+      <option id="NAME">Mosaic</option>
+      <option id="TYPE">8</option>
+      <option id="RESAMPLING">1</option>
+      <option id="OVERLAP">3</option>
+      <option id="MATCH">0</option>
+      <option id="TARGET_DEFINITION">0</option>
+      <option id="TARGET_USER_SIZE">0.700000</option>
+      <option id="TARGET_USER_XMIN">448000.350000</option>
+      <option id="TARGET_USER_XMAX">453598.250000</option>
+      <option id="TARGET_USER_YMIN">161000.350000</option>
+      <option id="TARGET_USER_YMAX">165198.950000</option>
+      <option id="TARGET_USER_FITS">0</option>
+      <input id="GRIDS">tool_09__GRIDS</input>
+      <input id="GRIDS">tool_09__GRIDS</input>
+      <input id="GRIDS">tool_09__GRIDS</input>
+      <input id="GRIDS">tool_09__GRIDS</input>
+      <input id="GRIDS">tool_09__GRIDS</input>
+      <input id="GRIDS">tool_09__GRIDS</input>
+      <input id="GRIDS">tool_09__GRIDS</input>
+      <input id="GRIDS">tool_09__GRIDS</input>
+      <input id="GRIDS">tool_09__GRIDS</input>
+      <input id="GRIDS">tool_09__GRIDS</input>
+    </tool>
+    <tool library="pj_proj4" tool="24" name="UTM Projection (Grid)">
+      <output id="GRID">tool_08__GRID</output>
+      <option id="CRS_METHOD">0</option>
+      <option id="RESAMPLING">1</option>
+      <option id="KEEP_TYPE">TRUE</option>
+      <option id="TARGET_AREA">FALSE</option>
+      <option id="TARGET_DEFINITION">0</option>
+      <option id="TARGET_USER_SIZE">0.730000</option>
+      <option id="TARGET_USER_XMIN">648504.990000</option>
+      <option id="TARGET_USER_XMAX">654226.730000</option>
+      <option id="TARGET_USER_YMIN">4867698.400000</option>
+      <option id="TARGET_USER_YMAX">4872064.530000</option>
+      <option id="TARGET_USER_FITS">0</option>
+      <option id="UTM_ZONE">18</option>
+      <option id="UTM_SOUTH">FALSE</option>
+      <input id="SOURCE">tool_09__TARGET_OUT_GRID</input>
+    </tool>
+    <tool library="ta_channels" tool="0" name="Channel Network">
+      <output id="SHAPES">tool_07__SHAPES</output>
+      <option id="INIT_METHOD">2</option>
+      <option id="INIT_VALUE">100000.000000</option>
+      <option id="DIV_CELLS">5</option>
+      <option id="MINLEN">10</option>
+      <input id="ELEVATION">tool_08__GRID</input>
+      <input id="SINKROUTE">tool_10__SINKROUTE</input>
+      <input id="INIT_GRID">tool_13__FLOW</input>
+    </tool>
+    <tool library="shapes_points" tool="5" name="Convert Lines to Points">
+      <output id="POINTS">tool_06__POINTS</output>
+      <option id="ADD">TRUE</option>
+      <option id="METHOD_INSERT">0</option>
+      <option id="DIST">1.000000</option>
+      <option id="ADD_POINT_ORDER">FALSE</option>
+      <input id="LINES">tool_07__SHAPES</input>
+    </tool>
+    <tool library="shapes_grid" tool="0" name="Add Grid Values to Points">
+      <output id="RESULT">tool_05__RESULT</output>
+      <option id="RESAMPLING">1</option>
+      <input id="SHAPES">tool_06__POINTS</input>
+      <input id="GRIDS">tool_05__GRIDS</input>
+    </tool>
+    <tool library="grid_gridding" tool="1" name="Inverse Distance Weighted">
+      <output id="TARGET_OUT_GRID">tool_04__TARGET_OUT_GRID</output>
+      <option id="FIELD">Mosaic small</option>
+      <option id="CV_METHOD">0</option>
+      <option id="TARGET_DEFINITION">1</option>
+      <option id="SEARCH_RANGE">0</option>
+      <option id="SEARCH_RADIUS">500.000000</option>
+      <option id="SEARCH_POINTS_ALL">0</option>
+      <option id="SEARCH_POINTS_MIN">1</option>
+      <option id="SEARCH_POINTS_MAX">20</option>
+      <option id="SEARCH_DIRECTION">0</option>
+      <option id="DW_WEIGHTING">1</option>
+      <option id="DW_IDW_POWER">2.000000</option>
+      <option id="DW_IDW_OFFSET">FALSE</option>
+      <input id="POINTS">tool_05__RESULT</input>
+    </tool>
+    <tool library="grid_tools" tool="3" name="Mosaicking">
+      <output id="TARGET_OUT_GRID">tool_03__TARGET_OUT_GRID</output>
+      <option id="NAME">Mosaic</option>
+      <option id="TYPE">8</option>
+      <option id="RESAMPLING">1</option>
+      <option id="OVERLAP">3</option>
+      <option id="MATCH">0</option>
+      <option id="TARGET_DEFINITION">0</option>
+      <option id="TARGET_USER_SIZE">0.700000</option>
+      <option id="TARGET_USER_XMIN">448000.350000</option>
+      <option id="TARGET_USER_XMAX">453598.250000</option>
+      <option id="TARGET_USER_YMIN">161000.350000</option>
+      <option id="TARGET_USER_YMAX">165198.950000</option>
+      <option id="TARGET_USER_FITS">0</option>
+      <input id="GRIDS">tool_03__GRIDS</input>
+      <input id="GRIDS">tool_03__GRIDS</input>
+      <input id="GRIDS">tool_03__GRIDS</input>
+      <input id="GRIDS">tool_03__GRIDS</input>
+      <input id="GRIDS">tool_03__GRIDS</input>
+      <input id="GRIDS">tool_03__GRIDS</input>
+      <input id="GRIDS">tool_03__GRIDS</input>
+      <input id="GRIDS">tool_03__GRIDS</input>
+      <input id="GRIDS">tool_03__GRIDS</input>
+      <input id="GRIDS">tool_03__GRIDS</input>
+    </tool>
+    <tool library="pj_proj4" tool="24" name="UTM Projection (Grid)">
+      <output id="GRID">tool_02__GRID</output>
+      <option id="CRS_METHOD">0</option>
+      <option id="RESAMPLING">1</option>
+      <option id="KEEP_TYPE">TRUE</option>
+      <option id="TARGET_AREA">FALSE</option>
+      <option id="TARGET_DEFINITION">0</option>
+      <option id="TARGET_USER_SIZE">0.730000</option>
+      <option id="TARGET_USER_XMIN">648504.990000</option>
+      <option id="TARGET_USER_XMAX">654226.730000</option>
+      <option id="TARGET_USER_YMIN">4867698.400000</option>
+      <option id="TARGET_USER_YMAX">4872064.530000</option>
+      <option id="TARGET_USER_FITS">0</option>
+      <option id="UTM_ZONE">18</option>
+      <option id="UTM_SOUTH">FALSE</option>
+      <input id="SOURCE">tool_03__TARGET_OUT_GRID</input>
+    </tool>
+    <tool library="grid_calculus" tool="3" name="Grid Difference">
+      <output id="C">tool_01__C</output>
+      <input id="A">tool_02__GRID</input>
+      <input id="B">tool_04__TARGET_OUT_GRID</input>
+    </tool>
+  </tools>
+</toolchain>
