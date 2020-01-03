@@ -1,9 +1,7 @@
 ## Multi-criteria analysis of Vulnerability in Malawi
 
 The goal of this lab was to try to reproduce the results found in [Vulnerability modeling for sub-Saharan Africa: an operational approach in Malawi](https://www.sciencedirect.com/science/article/pii/S0143622814000058).
-To do this, data was collected from GDAM, DHS survey data, and UNEP Global Risk data. The data files and results from this lab are compiled in this [zip file](L78_data.zip). The article measured socioeconomic household resilience by traditional authorities in Malawi and a rasterized grid of vulnerability to climate change. The factors Malcomb et al. took into account can be seen in the cart below:
-
-![hhresilience_chart](hhresilience_chart.jpg)
+To do this, data was collected from GDAM, DHS survey data, and UNEP Global Risk data. The data files and results from this lab are compiled in this [zip file](L78_data.zip). The article measured socioeconomic household resilience by traditional authorities in Malawi and a rasterized grid of vulnerability to climate change. The factors Malcomb et al. took into account can be seen in the chart on page 23 of his article.
 
 In order to convert the Global flood risk (fl_risk.tif) and Malawi drought exposure (dr_physexp.tif) rasters from UNEP Global Risk data into SQL code, we used the raster2pgsql command-line program. Global food risk data must be used because the Malawi flood risk data was clipped incorrectly and the Africa and Malawi extract are the population exposure to risk not the 0 to 5 scale. This command line was adapted to have flags where users can input the coordinate reference system ID of their girds (-s) (we used 4326) and the ability to overwrite an existing table (-d).
 ```
@@ -22,8 +20,7 @@ My results:
 
 To create a vulnerability map by traditional authority (which includes the household resilience, drought exposure, and flood risk) Professor Holler created a model that we subsequently modified. Here's the [model](malawi_lab.model3). The model takes the inputs livelihood zones, the socioeconomic resiliency scores of the traditional authorities, and the flood risk and drought exposure rasters. The model outputs a raster of socioeconomic resiliency, drought exposure, and flood risk all with the same extents and cell sizes. The model I made has a larger cell size resolution than that used by Malcomb et al. Grass tools r.quantile and r.recode were used to classify the drought raster into quantiles. Finally, raster calculator was used to make our 'reproduction' of Malcomb et al.'s vulnerability map.
 
-Malcomb et al. results:
-![malcomb_grid](malcomb_grid.jpg)
+Malcomb et al. results can be visualized on page 24 of his article.
 My results:
 ![grid](hhresilliencegrid.png)
 
@@ -35,11 +32,14 @@ Due to the factors listed above, this paper is not reproducible. A more detailed
 
 As we were trying to reproduce this study, was due to the assignment of data clusters to traditional authorities and the resolution to which the final raster was converted. When re-reading the paper, Malcomb et al. referenced a method using STATA software to disaggregate the cluster data to the village level and then assign it to a traditional authority. We did not use this method, so our assignment of dhs clusters to traditional authorities could be extremely inaccurate as dhs cluster locations are displaced from 2 to 5 km to preserve anonymity. Therefore, the way we assigned dhs clusters to traditional authorities introduced a lot of error into the study, but maybe the STATA method is more accurate to the traditional authority level. And in terms of the resolution of the flood risk data, the flood risk data cell size was twice the size of the drought exposure cell size, but Malcomb et al. chose to use the smaller cell resolution. This decision also introduces greater error into the final raster product.
 
-This reproducibility exercise in addition to the paper's we've read on reproducibility have made me realize the importance of documenting and making available every step and decision made when doing GIS research. The methods aspect is necessary for truly reproducible work, but the decision making process and explanation of troubleshooting that occurred during the research process makes the replicability and development of research/research methods possible. However, taking these extra steps to make work replicable and reproducible take much more time and energy. Replicability of this type of study is also complicated by the fact that the factors making a population vulnerable in Malawi might be very different from the factors that make another population vulnerable (eg. the number of livestock a person has does not have a strong correlation to the vulnerability of someone living in Houston Texas). Similarly, the interview data they collected would not be possible for someone to replicate from their computer, so anyone trying to replicate this study would need to carry out the same interview process (which also might not be exactly applicable in other social/cultural structures) in another area.
+This reproducibility exercise in addition to the article we've read on reproducibility (Tate, 2013) has made me realize the importance of documenting and making available every step and decision made when doing GIS research. The methods aspect is necessary for truly reproducible work, but the decision making process and explanation of troubleshooting that occurred during the research process makes the replicability and development of research/research methods possible. However, taking these extra steps to make work replicable and reproducible take much more time and energy. Replicability of this type of study is also complicated by the fact that the factors making a population vulnerable in Malawi might be very different from the factors that make another population vulnerable (eg. the number of livestock a person has does not have a strong correlation to the vulnerability of someone living in Houston Texas). Similarly, the interview data they collected would not be possible for someone to replicate from their computer, so anyone trying to replicate this study would need to carry out the same interview process (which also might not be exactly applicable in other social/cultural structures) in another area.
 
 Sources:
 Malcomb, D. W., E. A. Weaver, and A. R. Krakowka. 2014. Vulnerability modeling for sub-Saharan Africa: An
 operationalized approach in Malawi. Applied Geography 48:17–30.
+
+Eric Tate (2013) Uncertainty Analysis for a Social Vulnerability Index, Annals of
+the Association of American Geographers, 103:3, 526-543, DOI: 10.1080/00045608.2012.700616
 
 Open Source GIScience course Middlebury College
 
