@@ -13,14 +13,13 @@ The resulting SQL files were loaded into PostGIS.
 
 To prepare the dhshh data, each person in our class wrote an SQL query to classify the DHS survey data categories into quantiles. A lower quantile score (1 being the lowest) corresponds to a lower resilience and a higher quantile score (5 being the highest) corresponds to a higher resilience. For example, having a larger number of orphans at a DHS point is an indicator of the area's high vulnerability (less resilient), while a small number of orphans in an area is an indicator of the area's lower vulnerability (more resilient). There was a lot of uncertainty in this replication process because no information was provided for how the Boolean categories (eg. yes or no responses) were divided into quantiles. Professor Holler compiled our SQL queries and created this [SQL script](vulnerabilitySQL.sql) that assigns each dhs cluster (an id with location information) to the traditional authority that it falls within, assigns that traditional authority id to each dhs household data point, adds a column for each DHS survey category included, assigns a quantile value (1-5) for each category for each household, and sums the categories (with a weighted sum based off of the chart at the top of the page) for each household. The final step of household capacity analysis calculates the socioeconomic resilience of each traditional authority by averaging the scores of the households that fall in each cluster in each traditional authority. The DHS survey data categories included in measuring vulnerability were those corresponding to (stated explicitly with dhs metadata id code in the SQL script). 
 
-Malcomb et al. results:
-![malcomb_TA](malcomb_TA.jpg)
+Malcomb et al. results can be found on page  25 of his article.
 My results:
 ![TAs](TAcapacities.png)
 
 To create a vulnerability map by traditional authority (which includes the household resilience, drought exposure, and flood risk) Professor Holler created a model that we subsequently modified. Here's the [model](malawi_lab.model3). The model takes the inputs livelihood zones, the socioeconomic resiliency scores of the traditional authorities, and the flood risk and drought exposure rasters. The model outputs a raster of socioeconomic resiliency, drought exposure, and flood risk all with the same extents and cell sizes. The model I made has a larger cell size resolution than that used by Malcomb et al. Grass tools r.quantile and r.recode were used to classify the drought raster into quantiles. Finally, raster calculator was used to make our 'reproduction' of Malcomb et al.'s vulnerability map.
 
-Malcomb et al. results can be visualized on page 24 of his article.
+Malcomb et al. results can be visualized on page 26 of his article.
 My results:
 ![grid](hhresilliencegrid.png)
 
